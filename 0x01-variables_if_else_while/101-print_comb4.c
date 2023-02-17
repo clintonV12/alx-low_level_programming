@@ -29,9 +29,9 @@ continue;
 putchar(i);
 putchar(x);
 putchar(y);
-if (x < 57 || i < 57)
+if (x < 57 || i < 57 || y < 57)
 {
-if (i >= 56)
+if (i >= 55 && x >= 56)
 {
 continue;
 }
