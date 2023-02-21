@@ -6,16 +6,16 @@
  */
 int main(void)
 {
-long long a;
-long long b;
-long long c;
+long int a;
+long int b;
+long int c;
 int counter;
 
 a = 1;
 b = 2;
 counter = 0;
-printf("%d\n", a);
-printf("%d\n", b);
+printf("%ld\n", a);
+printf("%ld\n", b);
 
 while (counter < 48)
 {
@@ -23,7 +23,7 @@ c = a + b;
 a = b;
 b = c;
 
-printf("%d\n", c);
+printf("%ld\n", c);
 counter++;
 }
 return (0);
