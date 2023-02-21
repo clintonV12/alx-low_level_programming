@@ -63,11 +63,13 @@ void print_less_than_nine(int n, int j, int k)
 {
 if (j == n)
 {
+_putchar(32);
 _putchar('0' + k);
 _putchar('\n');
 }
 else
 {
+_putchar(32);
 _putchar('0' + k);
 _putchar(',');
 _putchar(32);
