@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-long int a;
-long int b;
-long int c;
+unsigned long int a;
+unsigned long int b;
+unsigned long int c;
 int counter;
 
 a = 1;
