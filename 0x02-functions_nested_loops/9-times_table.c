@@ -69,9 +69,18 @@ _putchar('\n');
 }
 else
 {
+if (j == 0)
+{
+_putchar('0' + k);
+_putchar(',');
+_putchar(32);
+}
+else
+{
 _putchar(32);
 _putchar('0' + k);
 _putchar(',');
 _putchar(32);
+}
 }
 }
