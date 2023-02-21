@@ -14,5 +14,6 @@ int add(int, int);
 void print_to_98(int n);
 void print_more_than_nine(int n, int j, int k);
 void print_less_than_nine(int n, int j, int k);
+void print_times_table(int n);
 
 #endif
