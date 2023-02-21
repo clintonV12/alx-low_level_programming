@@ -14,8 +14,7 @@ int counter;
 a = 1;
 b = 2;
 counter = 0;
-printf("%ld\n", a);
-printf("%ld\n", b);
+printf("%ld, %ld, ", a, b);
 
 while (counter < 48)
 {
@@ -23,7 +22,14 @@ c = a + b;
 a = b;
 b = c;
 
+if (counter != 47)
+{
+printf("%ld, ", c);
+}
+else
+{
 printf("%ld\n", c);
+}
 counter++;
 }
 return (0);
