@@ -16,9 +16,9 @@ if (size <= 0)
 _putchar('\n');
 }
 
-for (h = size + 1; h >= 1; h--)
+for (h = size; h > 0; h--)
 {
-for (i = 0; i < size + 1; i++)
+for (i = 0; i < size; i++)
 {
 if(i >= h){
 j = 35;
