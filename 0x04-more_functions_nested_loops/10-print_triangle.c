@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * print_triangle - prints a triangle using #
  * @size: size of the square
  * Return: Always void
@@ -20,7 +20,8 @@ for (h = size; h > 0; h--)
 {
 for (i = 0; i < size; i++)
 {
-if(i >= h){
+if (i >= h)
+{
 j = 35;
 _putchar(j);
 }

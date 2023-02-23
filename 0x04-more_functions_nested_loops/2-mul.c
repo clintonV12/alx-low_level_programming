@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * mul - checks if character is upper case
  *
  * @a: the int to multiply

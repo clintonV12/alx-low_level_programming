@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * print_number - prints an integer
  * @n: number to print
  * Return: Always void
@@ -16,7 +16,7 @@ print_negative_num(n);
 }
 }
 
-/*
+/**
  * print_positive_num - prints a positive integer
  * @n: number to print
  * Return: Always void
@@ -62,7 +62,7 @@ _putchar('0' + d);
 }
 }
 
-/*
+/**
  * print_negative_num - prints a negative integer
  * @n: number to print
  * Return: Always void

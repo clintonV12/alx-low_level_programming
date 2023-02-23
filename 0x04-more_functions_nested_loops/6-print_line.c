@@ -1,7 +1,7 @@
 #include "main.h"
-/*
+/**
  * print_line - prints a line using _
- *
+ * @n: number of times to print _
  * Return: Always void
  */
 void print_line(int n)

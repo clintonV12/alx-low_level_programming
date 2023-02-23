@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * print_diagonal - prints a line using _
  * @n: number of times to print n
  * Return: Always void

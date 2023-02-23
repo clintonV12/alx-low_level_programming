@@ -1,9 +1,9 @@
 #include "main.h"
-/*
+/**
  * _isdigit - checks if character is upper case
  *
  * @c: the character to check
- * 
+ *
  * Return: Always int (1 if is upper and 0 otherwise)
  */
 int _isdigit(int c)

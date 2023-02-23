@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * print_square - prints a square using #
  * @size: size of the square
  * Return: Always void

@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * more_numbers - prints numbers 0 - 9 except 2 & 4
  *
  * Return: Always void
