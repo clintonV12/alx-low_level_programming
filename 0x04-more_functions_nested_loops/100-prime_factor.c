@@ -28,6 +28,6 @@ lg = i;
 }
 }
 
-printf("%ld", lg);
+printf("%ld\n", lg);
 return (0);
 }
