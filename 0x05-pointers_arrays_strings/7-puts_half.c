@@ -33,7 +33,7 @@ int h;
 int i;
 
 h = (len - 1) / 2;
-for (i = h; i < len; i++)
+for (i = h + 1; i < len; i++)
 {
 _putchar(str[i]);
 }
