@@ -11,7 +11,7 @@ int len;
 int i;
 int j;
 char *temp;
-
+temp = "";
 len = 0;
 
 while (s[len] != '\0')
