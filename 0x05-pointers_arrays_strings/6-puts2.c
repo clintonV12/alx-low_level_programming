@@ -17,10 +17,8 @@ if (i == 0 || (i % 2 == 0))
 {
 _putchar(str[i]);
 }
-else
-{
-continue;
-}
+
 i++;
 }
+_putchar('\n');
 }
