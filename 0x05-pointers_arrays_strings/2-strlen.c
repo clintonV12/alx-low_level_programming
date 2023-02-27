@@ -15,7 +15,7 @@ len = 0;
 
 while (*s[i] != '\0')
 {
-i++
+i++;
 }
 len = i;
 return len;
