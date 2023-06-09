@@ -7,7 +7,7 @@
 * @argv: An array of pointers to the arguments.
 *
 * Return: always return 0.
-* 
+*
 */
 int main(int argc, char *argv[])
 {
@@ -21,7 +21,7 @@ return (1);
 
 arg1 = atoi(argv[1]);
 arg2 = atoi(argv[2]);
-answer = arg1 * arg2;
+answer = arg1 *arg2;
 
 printf("%d\n", answer);
 

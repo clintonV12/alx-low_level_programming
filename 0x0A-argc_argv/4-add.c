@@ -6,8 +6,8 @@
 * @argc: The number of arguments passed to the program.
 * @argv: An array of pointers to the arguments.
 *
-* Return: 1 when one of the numbers contains symbols that are non-digits else return 0.
-* 
+* Return: 1 if the numbers contains symbols that are non-digits else return 0.
+*
 */
 
 int main(int argc, char *argv[])
