@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
 * main - Prints the addition of positive numbers, followed by a new line.
@@ -10,10 +11,19 @@
 */
 int main(int argc, char *argv[])
 {
-if (argc > 0)
+int arg1, arg2, answer;
+
+if (argc != 3)
 {
-printf(argv[0]);
+printf("Error\n");
+return (1);
 }
-printf("\n");
+
+arg1 = atoi(argv[1]);
+arg2 = atoi(argv[2]);
+answer = arg1 * arg2;
+
+printf("%d\n", answer);
+
 return (0);
 }

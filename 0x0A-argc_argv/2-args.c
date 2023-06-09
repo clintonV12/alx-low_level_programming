@@ -10,10 +10,11 @@
 */
 int main(int argc, char *argv[])
 {
-if (argc > 0)
+int arg;
+for (arg = 0; arg < argc; arg++)
 {
-printf(argv[0]);
+printf("%s\n", argv[arg]);
 }
-printf("\n");
+
 return (0);
 }
