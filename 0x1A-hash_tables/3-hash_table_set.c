@@ -14,17 +14,8 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 hash_node_t *new;
 char *value_copy;
 unsigned long int index, i;
-
-if (ht == NULL || key == NULL || *key == '\0' || value == NULL)
-{
-return (0);
-}
-
 value_copy = strdup(value);
-if (value_copy == NULL)
-{
-return (0);
-}
+null_case(ht, key, value, value_copy);
 
 index = key_index((const unsigned char *)key, ht->size);
 for (i = index; ht->array[i]; i++)
@@ -36,7 +27,6 @@ ht->array[i]->value = value_copy;
 return (1);
 }
 }
-
 new = malloc(sizeof(hash_node_t));
 if (new == NULL)
 {
@@ -52,6 +42,29 @@ return (0);
 new->value = value_copy;
 new->next = ht->array[index];
 ht->array[index] = new;
+return (1);
+}
+
+/**
+ * null_case - helper function to handle null case.
+ * @ht: A pointer to the hash table.
+ * @key: The key to add - cannot be an empty string.
+ * @value: The value associated with key.
+ * @value_copy: The copy of value
+ * Return: Upon failure - 0.
+ */
+int null_case(hash_table_t *ht, const char *key, const char *value,
+char *value_copy)
+{
+if (ht == NULL || key == NULL || *key == '\0' || value == NULL)
+{
+return (0);
+}
+value_copy = strdup(value);
+if (value_copy == NULL)
+{
+return (0);
+}
 
 return (1);
 }
